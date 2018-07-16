@@ -290,6 +290,10 @@ input,button{
 	width: 35%;
 	padding-left: 40px;
 }
+.secdcon-tab-item.active{
+	color: #fb8d95;
+}
+
 .codepad-ls{
 	margin-left: -20px;
 }
@@ -331,6 +335,30 @@ input,button{
 	margin-right: 5px;
 	margin-top: 10px;
 }
+.contag-link:nth-child(6n+1){
+	background-color: #fee2e3;
+	border-color: #fed4d7;
+}
+.contag-link:nth-child(6n+2){
+	background-color: #f9e3d9;
+	border-color: #fed8c8;
+}
+.contag-link:nth-child(6n+3){
+	background-color: #cceae3;
+	border-color: #bdded6;
+}
+.contag-link:nth-child(6n+4){
+	background-color: #e4e4f7;
+	border-color: #d7d8f2;
+}
+.contag-link:nth-child(6n+5){
+	background-color: #f5eee7;
+	border-color: #f6e5d4;
+}
+.contag-link:nth-child(6n+6){
+	background-color: #eaf5d9;
+	border-color: #ddecc4;
+}
 .citycon{
 	margin-top: 10px;
 }
@@ -343,6 +371,9 @@ input,button{
 .city-item:nth-child(6n+1),.city-item:nth-child(6n+2),
 .city-item:nth-child(6n+3){
 	background-color: #f3f3f3;
+}
+.colorred{
+	color: #fb8d95;
 }
 
 
