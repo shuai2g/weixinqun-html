@@ -26,7 +26,7 @@
 html{
 	min-height: 100vh;
 }
-body,ul{
+body,ul,p{
 	margin: 0;
 }
 ul{
@@ -61,13 +61,14 @@ input,button{
 	position: relative;
 }
 .comtopcon,.comheader,.noticecon,.nav-ls,.code-ls,
-.secdcon,.codepad-ls,.contag,.citycon{
+.secdcon,.codepad-ls,.contag,.citycon,.category-tl,
+.artlist{
 	font-size: 0;
 }
 .comtop-lf,.comtop-rt,.comhd-lf,.comhd-md,
 .comhd-rt,.notice-icon,.notice-detail,.nav-item,.code-item,
 .secdcon-lf,.secdcon-rt,.codepad-item,.contag-link,
-.city-item{
+.city-item,.category-tl-link,.artitem{
 	font-size: 14px;
 	vertical-align: top;
 	display: inline-block;
@@ -282,6 +283,7 @@ input,button{
 }
 .secdcon{
 	padding-top: 20px;
+	margin-bottom: 10px;
 }
 .secdcon-lf{
 	width: 65%;
@@ -290,17 +292,30 @@ input,button{
 	width: 35%;
 	padding-left: 40px;
 }
+.secdcon-tab-item{
+	margin-right: 30px;
+	cursor: pointer;
+}
 .secdcon-tab-item.active{
 	color: #fb8d95;
+	position: relative;
 }
-
+.secdcon-tab-item.active:after{
+	content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -6px;
+    border-bottom: 3px solid #fb8d95;
+}
 .codepad-ls{
+	margin-top: 10px;
 	margin-left: -20px;
 }
 .codepad-item{
 	padding-left: 20px;
 	width: 20%;
-	margin-bottom: 20px;
+	margin-bottom: 12px;
 }
 .codepad-link{
 	padding: 10px 10px 0;
@@ -312,14 +327,14 @@ input,button{
     white-space: nowrap;
     text-overflow: ellipsis;
 }
-.rt-title{
+.rt-title,.secdcon-tab-txt{
 	font-size: 16px;
 	font-weight: bold;
 	border-bottom: 2px solid #eee;
 	padding-bottom: 10px;
 	position: relative;
-	height: 30px;
-	line-height: 30px;
+	height: 35px;
+	line-height: 35px;
 }
 .rt-line{
 	position: absolute;
@@ -375,10 +390,58 @@ input,button{
 .colorred{
 	color: #fb8d95;
 }
-
-
-
-
+.threecon{
+	padding: 20px 0;
+}
+.category-tl{
+	border-right: 1px solid #fb8c95;
+}
+.category-tl-link{
+	width: 10%;
+	text-align: center;
+	border: 1px solid #fb8c95;
+	border-right-width: 0;
+	height: 40px;
+	line-height: 40px;
+}
+.cateactive{
+	background-color: #fff;
+	border-bottom-width: 0;
+}
+.artlist{
+	background-color: #fff;
+	border: 1px solid #fb8c95;
+	border-top-width: 0;
+}
+.artitem{
+	width: 50%;
+	padding: 20px;
+	overflow: hidden;
+	border-bottom: 1px solid #f5eee7;
+}
+.artitem-pic{
+	width: 30%;
+	float: left;
+}
+.artitem-info{
+	width: 70%;
+	float: left;
+	padding-left: 15px;
+}
+.artitem-tl{
+	font-weight: bold;
+	font-size: 16px;
+	margin-top: 5px;
+	display: block;
+}
+.artitem-des{
+	line-height: 1.5;
+	margin: 10px 0;
+}
+.artitem-extra{
+	font-size: 12px;
+	color: #8a8a8a;
+}
 
 
 
