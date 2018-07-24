@@ -1,10 +1,13 @@
 配色 #fb8d95
 
-首页 
-https://www.weixinqun.com/
+首页  
+index.html
 
-微信群/个人微信/微信公众号
-https://www.weixinqun.com/group
+微信群  
+大图 group.html
+小图 group2.html
+
+
 
 地区微信
 https://www.weixinqun.com/city
