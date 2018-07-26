@@ -109,7 +109,7 @@ input,button{
 	font-size: 12px;
 }
 .comtop-link:hover{
-	color: #fb8d95;
+	color: #44b549;
 }
 .comtop-lf{
 	width: 80%;
@@ -131,13 +131,13 @@ input,button{
 	color: #fff;
 }
 .contop-login{
-	background-color: #fb8d95;
+	background-color: #44b549;
 }
 .contop-login:hover,.contop-res:hover{
 	opacity: .7;
 }
 .contop-res{
-	background-color: #8686a1;
+	background-color: #0f0f0f;
 }
 .comheader{
 	padding: 20px 0;
@@ -147,12 +147,12 @@ input,button{
 }
 .logo{
 	font-size: 40px;
-	color: #fb8d95;
+	color: #44b549;
 	float: left;
 }
 .search-box{
 	height: 40px;
-	border: 2px solid #fb8d95;
+	border: 2px solid #44b549;
 	position: relative;
 	padding-right: 60px;
 }
@@ -165,7 +165,7 @@ input,button{
 .search-btn{
 	position: absolute;
 	right: 0;
-	background-color: #fb8d95;
+	background-color: #44b549;
 	height: 100%;
 	top: 0;
 	width: 60px;
@@ -181,11 +181,11 @@ input,button{
 	margin-left: 10px;
 }
 .comhd-deal:hover{
-	border-color: #fb8d95;
+	border-color: #44b549;
 }
 .comhd-deal .iconfont{
 	font-size: 24px;
-	color: #fb8d95;
+	color: #44b549;
 	margin-right: 5px;
 }
 .checkcon{
@@ -197,7 +197,7 @@ input,button{
 	color: #5FB878;
 }
 .nav{
-	background-color: #8686a1;
+	background-color: #0f0f0f;
 	position: relative;
 	z-index: 2;
 }
@@ -230,7 +230,7 @@ input,button{
 	border-bottom-width: 0;
 }
 .nav-child-link:hover{
-	color: #fb8d95;
+	color: #44b549;
 }
 .nav-link{
 	color: #fff;
@@ -240,13 +240,13 @@ input,button{
 	position: relative;
 }
 .nav-link.current,.nav-item:hover .nav-link{
-	color: #f2d7cb;
+	color: #44b549;
 }
 .weixinqun{
 	position: absolute;
 	right: 0;
 	top: -6px;
-	background-color: #fb8d95;
+	background-color: #44b549;
 	color: #fff;
 	padding: 0 15px;
 }
@@ -256,7 +256,7 @@ input,button{
 	content: "";
 	width: 0;
 	height: 0;
-	border: 3px solid #fb8d95;
+	border: 3px solid #44b549;
 }
 .weixinqun:before{
 	left: -6px;
@@ -324,7 +324,7 @@ input,button{
 	cursor: pointer;
 }
 .secdcon-tab-item.active{
-	color: #fb8d95;
+	color: #44b549;
 	position: relative;
 }
 .secdcon-tab-item.active:after{
@@ -333,7 +333,7 @@ input,button{
     width: 100%;
     left: 0;
     bottom: -6px;
-    border-bottom: 3px solid #fb8d95;
+    border-bottom: 3px solid #44b549;
 }
 .codepad-ls{
 	margin-top: 10px;
@@ -366,7 +366,7 @@ input,button{
 .rt-line{
 	position: absolute;
 	bottom: -3px;
-	border-bottom: 3px solid #fb8d95;
+	border-bottom: 3px solid #44b549;
 }
 .contag{
 	margin-bottom: 20px;
@@ -415,7 +415,7 @@ input,button{
 	background-color: #f3f3f3;
 }
 .colorred{
-	color: #fb8d95;
+	color: #44b549;
 }
 .threecon{
 	padding: 20px 0;
@@ -541,7 +541,7 @@ input,button{
 	position: relative;
 }
 .goods-mrket{
-	background-color: #fb8d95;
+	background-color: #44b549;
     display: inline-block;
     height: 40px;
     line-height: 40px;
@@ -550,7 +550,7 @@ input,button{
    	padding: 0 20px;
 }
 .goods-add{
-	background-color: #8686a1;
+	background-color: #0f0f0f;
 	display: inline-block;
 	font-size: 12px;
 	height: 26px;
@@ -569,8 +569,8 @@ input,button{
 	content: "";
 	width: 0;
 	height: 0;
-	border: 6px solid #8686a1;
-	border-color: transparent #8686a1 transparent transparent;
+	border: 6px solid #0f0f0f;
+	border-color: transparent #0f0f0f transparent transparent;
 }
 .goods-more{
 	position: absolute;
@@ -590,7 +590,7 @@ input,button{
 	padding-right: 10px;
 }
 .footer{
-	border-top: 1px solid #8686a1;
+	border-top: 1px solid #0f0f0f;
 	background-color: #f8f8f8;
 }
 .trend{
@@ -601,7 +601,7 @@ input,button{
 	margin: 15px 20px 0 0;
 }
 .trend-link:hover,.filter-link:hover{
-	color: #fb8d95;
+	color: #44b549;
 	text-decoration: underline;
 }
 .ftcon{
@@ -661,14 +661,14 @@ input,button{
 	margin-bottom: 10px;
 }
 .fl-active{
-	background-color: #fb8d95;
+	background-color: #44b549;
 	color: #fff;
 }
 .more{
 	position: absolute;
 	right: 0;
 	top: 15px;
-	color: #fb8d95;
+	color: #44b549;
 	padding: 5px 0;
 }
 .lgcategory{
@@ -686,9 +686,9 @@ input,button{
 }
 .lgactive,.lgitem:hover{
 	position: relative;
-	background-color: #fb8d95;
+	background-color: #44b549;
 	color: #fff;
-	border-color: #fb8d95;
+	border-color: #44b549;
 }
 .lgactive:after,.lgitem:hover:after{
 	position: absolute;
@@ -717,7 +717,7 @@ input,button{
 	box-shadow: 0 0 5px 3px rgba(0,0,0,.5);
 }
 .box-bd:hover .todetail{
-	color: #fb8d95;
+	color: #44b549;
 	text-decoration: underline;
 }
 .box-info{
@@ -730,7 +730,7 @@ input,button{
 .box-addr{
 	position: absolute;
 	right: 0;
-	background-color: #8686a1;
+	background-color: #0f0f0f;
 	font-size: 12px;
 	color: #fff;
 	height: 20px;
@@ -760,7 +760,7 @@ input,button{
 	font-size: 12px;
 }
 .pagenum:hover{
-	background-color: #fb8d95;
+	background-color: #44b549;
 	color: #fff;
 }
 .noborder{
@@ -794,7 +794,7 @@ input,button{
 	color: #8a8a8a;
 }
 .filter-sum i{
-	color: #fb8d95;
+	color: #44b549;
 }
 .fl-result{
 	height: 60px;
@@ -815,7 +815,7 @@ input,button{
 	margin-left: 10px;
 }
 .showactive,.showstyle:hover,.showstyle:hover a{
-	color: #fb8d95;
+	color: #44b549;
 }
 .subbox-ls{
 	margin-right: -10px;
