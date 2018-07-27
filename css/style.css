@@ -300,6 +300,9 @@ input,button{
 	border: 1px solid #e7e7eb;
 	background-color: #fff;
 }
+.code-link:hover,.codepad-link:hover{
+	box-shadow: 0 0 0 2px rgba(0,0,0,.3);
+}
 .code-wp{
 	height: 125px;
 }
@@ -377,6 +380,9 @@ input,button{
 	margin-right: 5px;
 	margin-top: 10px;
 }
+.contag-link:hover{
+	text-decoration: underline;
+}
 .contag-link:nth-child(6n+1){
 	background-color: #fee2e3;
 	border-color: #fed4d7;
@@ -414,6 +420,9 @@ input,button{
 .city-item:nth-child(6n+3){
 	background-color: #f3f3f3;
 }
+.city-link:hover{
+	text-decoration: underline;
+}
 .colorred{
 	color: #44b549;
 }
@@ -430,6 +439,9 @@ input,button{
 	border-right-width: 0;
 	height: 40px;
 	line-height: 40px;
+}
+.category-tl-link:hover{
+	color: #44b549;
 }
 .cateactive{
 	background-color: #fff;
@@ -460,6 +472,10 @@ input,button{
 	font-size: 16px;
 	margin-top: 5px;
 	display: block;
+}
+.artitem-tl:hover{
+	color: #44b549;
+	text-decoration: underline;
 }
 .artitem-des{
 	line-height: 1.5;
@@ -527,6 +543,9 @@ input,button{
 	display: block;
 	border: 1px solid #e5e5e5;
 }
+.goods-link:hover{
+	color: #44b549;
+}
 .goods-introduce{
 	display: block;
 	height: 35px;
@@ -588,6 +607,10 @@ input,button{
 }
 .friend-link{
 	padding-right: 10px;
+}
+.friend-link:hover,.goods-more:hover{
+	color: #44b549;
+	text-decoration: underline;
 }
 .footer{
 	border-top: 1px solid #0f0f0f;
