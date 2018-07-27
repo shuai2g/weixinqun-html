@@ -598,7 +598,7 @@ input,button{
 	line-height: 40px;
 }
 .friend{
-	border: 1px solid #ededed;
+	border: 1px solid #e7e7eb;
 	padding: 15px 10px;
 	margin-bottom: 20px;
 }
@@ -628,7 +628,7 @@ input,button{
 	text-decoration: underline;
 }
 .ftcon{
-	border-top: 1px solid #ededed;
+	border-top: 1px solid #e7e7eb;
 	padding: 20px 0;
 }
 .copyright,.ftcon-item,.ftcon-code{
@@ -637,7 +637,7 @@ input,button{
 }
 .ftcon-item{
 	display: inline-block;
-	border-right: 1px solid #ededed;
+	border-right: 1px solid #e7e7eb;
 	padding: 0 10px;
 	width: 13%;
 }
@@ -666,7 +666,7 @@ input,button{
 .filter{
 	overflow: hidden;
 	padding: 15px 0;
-	border-top: 1px solid #ededed;
+	border-top: 1px solid #e7e7eb;
 	position: relative;
 }
 .filter-tl{
@@ -733,7 +733,7 @@ input,button{
 	margin-bottom: 20px;
 }
 .box-bd{
-	border: 1px solid #ededed;
+	border: 1px solid #e7e7eb;
 	padding: 10px 10px 20px;
 }
 .box-bd:hover{
@@ -823,14 +823,15 @@ input,button{
 	height: 60px;
 	line-height: 60px;
 	text-align: right;
-	border-top: 1px solid #ededed;
+	border-top: 1px solid #e7e7eb;
+	overflow: hidden;
 }
 .filter-sum{
 	float: left;
 }
 .showstyle{
 	display: inline-block;
-	border-left: 1px solid #ededed;
+	border-left: 1px solid #e7e7eb;
 	padding: 0 20px 0 10px;
 }
 .showstyle .iconfont{
@@ -857,7 +858,7 @@ input,button{
 	width: 70%;
 }
 .subbox-bd{
-	border: 1px solid #ededed;
+	border: 1px solid #e7e7eb;
 	padding: 10px;
 }
 .subtodetail{
@@ -866,7 +867,7 @@ input,button{
 	font-weight: bold;
 }
 .subuserlike{
-	border-top: 1px solid #ededed;
+	border-top: 1px solid #e7e7eb;
 	padding-top: 10px;
 	margin-top: 10px;
 	color: #8a8a8a;
