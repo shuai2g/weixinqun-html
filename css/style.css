@@ -216,7 +216,7 @@ input,button{
 }
 .nav-child{
 	position: absolute;
-	background-color: #f5eee7;
+	background-color: #f8f8f8;
 	padding: 0 15px;
 	width: 120px;
 	display: none;
@@ -224,7 +224,7 @@ input,button{
 }
 .nav-child-link{
 	display: block;
-	border-bottom: 1px solid #f2d7cb;
+	border-bottom: 1px solid #e7e7eb;
 }
 .nav-child-link:last-child{
 	border-bottom-width: 0;
@@ -260,11 +260,11 @@ input,button{
 }
 .weixinqun:before{
 	left: -6px;
-	border-color: transparent #ff7781 #ff7781 transparent;
+	border-color: transparent #44b549 #44b549 transparent;
 }
 .weixinqun:after{
 	right: -6px;
-	border-color: transparent transparent #ff7781 #ff7781;
+	border-color: transparent transparent #44b549 #44b549;
 }
 .weixinqun:hover{
 	text-decoration: underline;
@@ -297,7 +297,7 @@ input,button{
 }
 .code-link,.codepad-link{
 	display: block;
-	border: 1px solid #ddd;
+	border: 1px solid #e7e7eb;
 	background-color: #fff;
 }
 .code-wp{
@@ -332,8 +332,8 @@ input,button{
     position: absolute;
     width: 100%;
     left: 0;
-    bottom: -6px;
-    border-bottom: 3px solid #44b549;
+    bottom: -7px;
+    border-bottom: 2px solid #44b549;
 }
 .codepad-ls{
 	margin-top: 10px;
@@ -356,8 +356,8 @@ input,button{
 }
 .rt-title,.secdcon-tab-txt{
 	font-size: 16px;
-	font-weight: bold;
-	border-bottom: 2px solid #eee;
+	color: #44b549;
+	border-bottom: 1px solid #e6e7ec;
 	padding-bottom: 10px;
 	position: relative;
 	height: 35px;
@@ -365,8 +365,8 @@ input,button{
 }
 .rt-line{
 	position: absolute;
-	bottom: -3px;
-	border-bottom: 3px solid #44b549;
+	bottom: -1px;
+	border-bottom: 2px solid #44b549;
 }
 .contag{
 	margin-bottom: 20px;
@@ -421,12 +421,12 @@ input,button{
 	padding: 20px 0;
 }
 .category-tl{
-	border-right: 1px solid #fb8c95;
+	border-right: 1px solid #e7e7eb;
 }
 .category-tl-link{
 	width: 10%;
 	text-align: center;
-	border: 1px solid #fb8c95;
+	border: 1px solid #e7e7eb;
 	border-right-width: 0;
 	height: 40px;
 	line-height: 40px;
@@ -437,14 +437,14 @@ input,button{
 }
 .artlist{
 	background-color: #fff;
-	border: 1px solid #fb8c95;
+	border: 1px solid #e7e7eb;
 	border-top-width: 0;
 }
 .artitem{
 	width: 50%;
 	padding: 20px;
-	border-bottom: 1px solid #f5eee7;
-	border-right: 1px solid #f5eee7;
+	border-bottom: 1px solid #e7e7eb;
+	border-right: 1px solid #e7e7eb;
 }
 .artitem-pic{
 	width: 30%;
@@ -580,7 +580,7 @@ input,button{
 }
 .friend{
 	border: 1px solid #ededed;
-	padding: 10px;
+	padding: 15px 10px;
 	margin-bottom: 20px;
 }
 .friend-tl{
@@ -681,7 +681,7 @@ input,button{
    	text-align:center;
    	color: #fff;
    	padding: 0 20px;
-   	border: 1px solid #e2d4c7;
+   	border: 1px solid #cecece;
    	color: #333;
 }
 .lgactive,.lgitem:hover{
@@ -714,7 +714,7 @@ input,button{
 	padding: 10px 10px 20px;
 }
 .box-bd:hover{
-	box-shadow: 0 0 5px 3px rgba(0,0,0,.5);
+	box-shadow: 0 0 0 2px rgba(0,0,0,.3);
 }
 .box-bd:hover .todetail{
 	color: #44b549;
