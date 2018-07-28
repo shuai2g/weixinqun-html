@@ -9,6 +9,12 @@ index.html
 大图 group.html
 小图 group2.html
 
+红福群
+大图 ad_group.html
+小图 ad_group2.html
+
+地区微信
+city.html
 
 
 地区微信
