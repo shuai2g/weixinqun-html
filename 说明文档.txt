@@ -19,6 +19,9 @@ city.html
 微信货源
 product.html
 
+微信文章
+article.html
+
 
 
 微信货源
