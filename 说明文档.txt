@@ -22,6 +22,9 @@ product.html
 微信文章
 article.html
 
+搞笑大全
+搞笑图片 circle1.html
+搞笑段子 circle2.html
 
 
 微信货源
