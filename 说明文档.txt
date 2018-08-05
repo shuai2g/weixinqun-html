@@ -7,11 +7,11 @@ index.html
 
 微信群/个人微信/微信公众号
 大图 group.html
-小图 group2.html
+列表 group2.html
 
-红福群
+红福群/红群
 大图 ad_group.html
-小图 ad_group2.html
+列表 ad_group2.html
 
 地区微信
 city.html
@@ -26,26 +26,11 @@ article.html
 搞笑图片 circle1.html
 搞笑段子 circle2.html
 
-
-微信货源
-https://www.weixinqun.com/product
-
-微信文章
-https://www.weixinqun.com/article
-
-搞笑大全
-https://www.weixinqun.com/circle
-	搞笑段子
-	https://www.weixinqun.com/circle?t=txt
-
 排行榜
-https://www.weixinqun.com/group?m=2
-
-红群
-https://www.weixinqun.com/ad_group
+ranking.html
 
 群交易
-https://www.weixinqun.com/sell
+sell.html
 
 详情页
-https://www.weixinqun.com/article?id=842079
+detail.html
