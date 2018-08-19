@@ -34,3 +34,60 @@ sell.html
 
 详情页
 detail.html
+
+
+
+登录
+user/login.html
+
+注册
+user/register.html
+
+找回密码
+user/resetpwd.html
+
+会员中心
+	个人中心
+	user/user_center.html
+
+	修改资料
+	user/change_info.html(头像上传城市选择未完成)
+
+	绑定手机号
+	user/bound_phone.html
+
+	会员公告
+	user/notice.html
+
+	邀请注册
+	user/share.html
+
+
+消费与金币
+	我要充值
+	recharge.html
+
+	充值记录
+	recharge_log.html
+
+	消费明细
+	consume_log.html
+
+	金币查询
+	point_log.html
+
+	代理转账
+	trans.html
+
+	金币规则
+	task.html
+
+
+
+
+
+
+
+
+
+
