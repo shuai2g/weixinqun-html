@@ -46,6 +46,61 @@ user/register.html
 找回密码
 user/resetpwd.html
 
+
+普通微信群发布
+user/group.html
+
+红包福利微信群发布
+user/group2.html
+
+出售群发布
+user/sell.html
+
+个人微信号发布
+user/personal.html
+
+公众号发布
+user/openid.html
+
+货源发布
+user/product.html
+
+
+个人投稿
+
+	发布文章
+	user/aricle.html 
+
+	发布搞笑图片
+	user/joy_pic.html
+
+	发布搞笑段子
+	user/joy_txt.html
+
+	发布广告
+	user/ads.html
+
+
+消费与金币
+	我要充值
+	user/recharge.html
+
+	充值记录
+	user/recharge_log.html
+
+	消费明细
+	user/consume_log.html
+
+	金币查询
+	user/point_log.html
+
+	代理转账
+	user/trans.html
+
+	金币规则
+	user/task.html
+
+
 会员中心
 	个人中心
 	user/user_center.html
@@ -62,25 +117,6 @@ user/resetpwd.html
 	邀请注册
 	user/share.html
 
-
-消费与金币
-	我要充值
-	recharge.html
-
-	充值记录
-	recharge_log.html
-
-	消费明细
-	consume_log.html
-
-	金币查询
-	point_log.html
-
-	代理转账
-	trans.html
-
-	金币规则
-	task.html
 
 
 

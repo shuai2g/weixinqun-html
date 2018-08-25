@@ -150,17 +150,21 @@
 		<div class="usercon-wp">
 			<div class="usercon">
 				<div class="usercon-lf">
-					<form action="">
-						<div class="box-line">
-							<span class="box-line-txt">手机号</span>
-							<input class="box-line-input" type="text" placeholder="请输入手机号">
+					<form action="" id="loginform">
+						<div class="box-wrapper">
+							<div class="box-line">
+								<span class="box-line-txt">手机号</span>
+								<input name="phone" class="box-line-input" type="text" placeholder="请输入手机号" required>
+							</div>
 						</div>
-						<div class="box-line">
-							<span class="box-line-txt">登录密码</span>
-							<input class="box-line-input" type="text" placeholder="请输入密码">
+						<div class="box-wrapper">
+							<div class="box-line">
+								<span class="box-line-txt">登录密码</span>
+								<input name="password" class="box-line-input" type="text" placeholder="请输入密码" required>
+							</div>
 						</div>
 						<div class="formbtn-wp">
-							<button type="submit" class="loginbtn" disabled="">登录</button>
+							<input type="submit" value="登录" class="loginbtn">						
 						</div>
 						<div class="box-l-text">
 							<a href="#" class="box-text-link">忘记密码？</a>
@@ -223,5 +227,33 @@
 		</div>
 	</footer>
 	<!-- footer end -->
+		<script type="text/javascript" src="../../js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="../../js/jquery.validate.min.js"></script><!-- 表单验证插件 -->
+	<script type="text/javascript" src="../../js/messages_zh.js"></script><!-- 中文验证信息 -->
+	<script>
+		$.validator.setDefaults({
+		    submitHandler: function() {
+		      alert("登录成功！");
+		    }
+		});
+		var icon = "<i class='iconfont icon-svgarticles'></i>";
+		$().ready(function() {
+			// 提交时验证表单
+			var validator = $("#loginform").validate({
+				errorPlacement: function(error, element) {
+					error.appendTo(element.parent().parent());
+				},
+				errorElement: "div",
+				messages: {
+					phone: {
+						required: icon+"请输入手机号"
+					},
+					password: {
+						required: icon+"请输入您的登录密码",
+					},
+				}
+			});
+		});
+	</script>
 </body>
 </html>
