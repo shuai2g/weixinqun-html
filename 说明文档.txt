@@ -1,6 +1,8 @@
-配色
-绿色 44b549
-黑色 0f0f0f
+导航菜单显示
+<input type="checkbox" id="mbmenu" checked>
+
+导航菜单隐藏
+<input type="checkbox" id="mbmenu">
 
 首页  
 index.html
