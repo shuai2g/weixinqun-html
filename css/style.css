@@ -1168,7 +1168,7 @@ table{
 	border-bottom: 1px solid #cecece;
 }
 .city-rt{
-	max-width: 950px;
+	width: 950px;
 	padding-left: 30px;
 }
 .city-tl{
@@ -2273,7 +2273,7 @@ table{
 	margin-bottom: 30px;
 }
 .user-form-btn{
-	margin-left: 100px;
+	margin-left: 115px;
 }
 .sharecon-link{
 	display: block;
@@ -2478,6 +2478,7 @@ table{
 .trans-line-tl span,.trans-line-info span{
 	flex: 1;
 	padding: 0 20px;
+	font-size: 12px;
 }
 .trans-line-tl{
 	height: 40px;
@@ -2616,8 +2617,8 @@ table{
 }
 .trans-line-info span.user-form-edit,
 .trans-line-tl span.user-form-edit{
-	flex: 0 0 200px;
-	width: 200px;
+	flex: 0 0 180px;
+	width: 180px;
 }
 .trans-line-info span.user-form-tl,
 .trans-line-tl span.user-form-tl{
@@ -2916,7 +2917,7 @@ table{
 	}
 	.city-rt{
 		padding-left: 0;
-		max-width: 728px;
+		width: 728px;
 	}
 	.city-trend-item{
 		width: 33.33333%;
@@ -3010,6 +3011,12 @@ table{
 	.article-con{
 		padding-left: 30px;
 	}
+	.scroll-x{
+		overflow-x: scroll;
+	}
+	.fixedwidth{
+		width: 950px;
+	}
 }
 @media screen and (max-width:767px){
 	.wrapper{
@@ -3090,6 +3097,12 @@ table{
 	}
 	.article-con{
 		width: 100%;
+	}
+	.city-rt{
+		width: 100%;
+	}
+	.me-tab-info-item{
+		width: 50%;
 	}
 }
 @media screen and (max-width:500px){
@@ -3223,5 +3236,34 @@ table{
 	}
 	.bselect{
 		float: none;
+	}
+	.article-con{
+		padding-left: 10px;
+	}
+	.me-tab-txt{
+		padding-left: 10px;
+		padding-right: 10px;
+		font-size: 12px;
+	}
+	.box-span{
+		display: block;
+		padding-top: 5px;
+	}
+	.bselect{
+		width: 84px;
+	}
+	.needmoney{
+		line-height: 30px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.me-tab-info-item{
+		width: 100%;
+	}
+	.me-box-wp{
+		margin-right: 50%;
+	}
+	.user-form-btn{
+		margin-left: 0;
 	}
 }
