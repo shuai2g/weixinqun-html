@@ -37,6 +37,9 @@ sell.html
 详情页
 detail.html
 
+文章详情
+articledeail.html
+
 
 
 登录
