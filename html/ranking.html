@@ -269,21 +269,16 @@
 			<div class="city-lf">
 				<h4 class="city-tl">设置排行条件</h4>
 				<div class="rank-tl">按地区查看</div>
-				<div class="select-wp">
-					<select name="" id="" class="select">
-						<option value="0">请选择</option>
-						<option value="1">北京市</option>
-						<option value="2">天津市</option>
-						<option value="3">河北省</option>
-						<option value="4">山西省</option>
-						<option value="5">内蒙古</option>
-						<option value="6">辽宁省</option>
-					</select>
-					<select name="" id="" class="select">
-						<option value="0">长春市</option>
-						<option value="1">吉林市</option>
-					</select>
-				</div>
+				<form action="" name="rankform">
+					<div class="select-wp">
+						<select name="province" id="province" class="select" onChange="selectcityarea('province','city','rankform');">
+							<option value="0" selected>选择省份</option>
+						</select>
+						<select name="city" id="city" class="select">
+							<option value="0" selected>选择城市</option>
+						</select>
+					</div>
+				</form>
 				<div class="rank-tl">排行方式</div>
 				<div class="hotlike">
 					<a href="#" class="hotlike-item hotlike-active">热度</a>
@@ -905,5 +900,9 @@
 		<!-- mobile公用footer end -->
 	</footer>
 	<!-- footer end -->
+	<script type="text/javascript" src="../js/city.js"></script>
+	<script type="text/javascript">
+		first("province","city","rankform",0,0);
+	</script>
 </body>
 </html>

@@ -339,7 +339,7 @@
 					</div>
 					<div class="me-tab-info">
 						<div class="article-con">
-							<form action="" id="personform">
+							<form action="" id="personform" name="personform">
 								<div class="box-wrapper">
 									<div class="box-line">
 										<label for="personhy" class="box-line-txt"><i class="must">*</i>所属行业：</label>
@@ -384,19 +384,11 @@
 										<span class="box-line-txt">地区：</span>
 										<div class="box-line-info">
 											<div class="bselect-wp">
-												<select name="" id="" class="bselect">
-													<option value="0">请选择</option>
-													<option value="1">北京市</option>
-													<option value="2">天津市</option>
-													<option value="3">河北省</option>
-													<option value="4">山西省</option>
-													<option value="5">内蒙古</option>
-													<option value="6">辽宁省</option>
+												<select name="province" id="province" class="bselect" onChange="selectcityarea('province','city','personform');">	
+													<option value="0" selected>选择省份</option>
 												</select>
-												<select name="" id="" class="bselect">
-													<option value="0">请选择</option>
-													<option value="1">长春市</option>
-													<option value="2">吉林市</option>
+												<select name="city" id="city" class="bselect">			
+													<option value="0" selected>选择城市</option>				
 												</select>
 											</div>
 										</div>
@@ -675,7 +667,9 @@
 	<script src="../../js/jquery-1.11.1.min.js"></script>
 	<script type="text/javascript" src="../../js/jquery.validate.min.js"></script><!-- 表单验证插件 -->
 	<script type="text/javascript" src="../../js/messages_zh.js"></script><!-- 中文验证信息 -->
+	<script type="text/javascript" src="../../js/city.js"></script>
 	<script>
+		first("province","city","personform",0,0);
 		//选项卡
 		$(".me-tab-item").click(function(){
 			$(this).addClass('me-active').siblings().removeClass('me-active');
